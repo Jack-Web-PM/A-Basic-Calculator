@@ -1,17 +1,16 @@
-// document.querySelector("html").addEventListener("click", () => {
-//     alert("this is wrong")
-// });
-    
-let myButton = document.querySelector("button");
-let myHeading = document.querySelector("h1");
-let input = document.querySelector("input");
+let x = num1;
+let y = num2;
+let (x + y) = add;
+let (x - y) = minus;
+let (x * y) = multiply;
+let (x / y) = divide;
 
-function inputNumber() {
-    const number = prompt("please input some numbers.");
-    localStorage.setItem("1", number);
-    myHeading.textContent = '1, ${number}';
-}
+if (num1 + num2);
 
-function inputText () {
-    
-}
+const number = prompt("Please input some number.");
+  if (!number) {
+    pleaseTryAgain();
+  } else {
+    myHeading.textContent = `answer, ${number}`;
+  }
+

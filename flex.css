@@ -5,8 +5,26 @@
     font-size: 3rem;
 }
 
-.inputNum {
-    display: flex;
-    border-width: 10px;
-    border-color: red;
+button {
+    text-align: center;
+    letter-spacing: 1rem;
+    border-radius: .125rem;
+    background-color: grey;
+    color: white;
+    font-size: 2rem;
+    border-width: .5rem;
+}
+
+button:hover {
+    color: black;
+}
+
+input {
+    background-color: lightgrey;
+    letter-spacing: 1rem;
+    color: white;
+    border-radius: 0;
+    font-size: 3rem;
+    text-align: start;
+    padding-inline-start: 24rem;
 }
