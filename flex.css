@@ -1,0 +1,12 @@
+.calculator {
+    text-align: center;
+    justify-content: center;
+    background-color: white;
+    font-size: 3rem;
+}
+
+.inputNum {
+    display: flex;
+    border-width: 10px;
+    border-color: red;
+}
