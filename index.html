@@ -9,23 +9,30 @@
 
 <body>
     <div class = calculator>
-    <input type="button">
-    <button name="subject" type="submit" value="0">0</button>
-    <button name="subject" type="submit" value="1">1</button>
-    <button name="subject" type="submit" value="2">2</button>
-    <button name="subject" type="submit" value="3">3</button>
-    <button name="subject" type="submit" value="4">4</button>
-    <button name="subject" type="submit" value="5">5</button>
-    <button name="subject" type="submit" value="6">6</button>
-    <button name="subject" type="submit" value="7">7</button>
-    <button name="subject" type="submit" value="8">8</button>
-    <button name="subject" type="submit" value="9">9</button>
-    <button name="subject" type="submit" value="+">+</button>
-    <button name="subject" type="submit" value="-">-</button>
-    <button name="subject" type="submit" value="*">*</button>
-    <button name="subject" type="submit" value="/">/</button>
-    <button name="subject" type="submit" value="=">=</button>
-    <button name="subject" type="submit" value=".">.</button>
+        <section class="label">
+        <input type="button" id="display">
+        </section>
+        <section class="number_Buttons">
+        <button onclick= "getNumber(1)">1</button>
+        <button onclick= "getNumber(2)">2</button>
+        <button onclick= "getNumber(3)">3</button>
+        <button onclick= "getOperator('+')">+</button>
+
+        <button onclick= "getNumber(4)">4</button>
+        <button onclick= "getNumber(5)">5</button>
+        <button onclick= "getNumber(6)">6</button>
+        <button onclick= "getOperator('-')">-</button>
+
+        <button onclick= "getNumber(7)">7</button>
+        <button onclick= "getNumber(8)">8</button>
+        <button onclick= "getNumber(9)">9</button>
+        <button onclick= "getOperator('*')">*</button>
+
+        <button onclick= "resetCalculaton()">C</button>
+        <button onclick= "getNumber('0')">0</button>
+        <button onclick= "calculateEquals()">=</button>
+        <button onclick= "getOperator('/')">/</button>
+        </section>
     </div>
     <script src="main.js"></script>
 </body>

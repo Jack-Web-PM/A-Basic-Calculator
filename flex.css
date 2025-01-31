@@ -1,9 +1,4 @@
-.calculator {
-    text-align: center;
-    justify-content: center;
-    background-color: white;
-    font-size: 3rem;
-}
+
 
 button {
     text-align: center;
@@ -11,9 +6,25 @@ button {
     border-radius: .125rem;
     background-color: grey;
     color: white;
+    padding: 40px;
+    margin: 0.5rem;
+    max-width: 100px;
+    max-height: 100px;
     font-size: 2rem;
     border-width: .5rem;
-    flex-flow: column wrap;
+}
+
+.number_Buttons {
+    
+}
+
+.calculator {
+    margin: 10vh auto;
+    width: 500px;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 10px;
+    background-color: grey;
 }
 
 button:hover {
@@ -22,10 +33,9 @@ button:hover {
 
 input {
     background-color: lightgrey;
-    letter-spacing: 1rem;
+    width: 370px;
     color: white;
     border-radius: 0;
     font-size: 3rem;
     text-align: start;
-    padding-inline-start: 24rem;
 }
