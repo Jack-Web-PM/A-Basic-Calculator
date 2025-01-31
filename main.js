@@ -1,5 +1,5 @@
-let firstNumber;
-let secondNumber;
+let firstNumber; //first number
+let secondNumber; //second number
 let step = 0;
 let operation;
 let result = 0;
@@ -19,13 +19,13 @@ function getNumber(num) {
     display.value = firstNumber;
     step = 1;
   } else {
-    secondNumArray.push(num);
+    secondNumArray.push(num); //second number add can be push
     secondNumber = Number(secondNumArray.join(''));
     display.value = secondNumber;
   }
 }
 
-function getOperator(operator) {
+function getOperator(operator) { 
   if (step != 1 || operation) {
     console.log("You can't change you operator for now.")
     return;
@@ -46,21 +46,21 @@ function resetCalculaton() {
   secondNumArray = [];
 }
 
-const calculateEquals = () => {
+const calculateEquals = () => { //first number with second input that does not a number will return
   if (!firstNumber && !secondNumber) {
     display.value = "Invalid input";
     return;
   }
-  if (operation === '+') {
+  if (operation === '+') { //operation +
     result = firstNumber + secondNumber;
     display.value = result;
-  } else if (operation === '-') {
+  } else if (operation === '-') { //operation -
     result = firstNumber - secondNumber;
     display.value = result;
-  } else if (operation === '*') {
+  } else if (operation === '*') { //operation *
     result = firstNumber * secondNumber;
     display.value = result;
-  } else if (operation === '/') {
+  } else if (operation === '/') { //operation /
     result = firstNumber / secondNumber;
     display.value = result;
   }
